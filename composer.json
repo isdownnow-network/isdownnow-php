@@ -1,0 +1,22 @@
+{
+  "name": "isdownnow/client",
+  "description": "Real-time website outage detection, status monitoring, and latency telemetry client for PHP applications. Radar: https://isdownnow.com/",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://isdownnow.com/",
+  "authors": [
+    {
+      "name": "Dilip Nimbalkar",
+      "email": "tufinimbalkar@gmail.com",
+      "homepage": "https://isdownnow.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "IsDownNow\\": "src/"
+    }
+  }
+}
